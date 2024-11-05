@@ -10,6 +10,7 @@ body {
   width: 375px;
   margin: 0 auto;
   background: #fff;
+  padding: 0px 10px;
 }
 
 header .container {
@@ -24,14 +25,10 @@ section .container {
   align-items: center;
 }
 
-h2 {
-  font-size: 13px;
-  margin-bottom: 0px;
-}
-
+h2,
 p {
-  margin-top: 0px;
-  font-size: 12px;
+  font-size: 13px;
+  margin: 0;
 }
 
 .logo {
@@ -46,7 +43,7 @@ p {
   margin: 16px;
 }
 
-.avatar-vangogh {
+.avatar {
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -56,11 +53,15 @@ p {
 .text-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
 }
 
 .post-img {
   width: 100%;
+}
+
+.posts {
+  margin-bottom: 20px;
 }
 
 .icon-container {
